@@ -1,0 +1,56 @@
+,id,title,author,tags,links
+0,20210119180901,Resilience and evolvability of protein-protein interaction networks,"Brennan Klein, Ludvig Holmér, Keith Smith, Mackenzie Johnson, Anshuman Swain, Laura Stolp, Ashley Teufel, April Kleppe","['literature', 'resilience', 'networks']",[]
+1, 20200402171646,The Square and The Tower,Niall Ferguson,"['literature', 'networks', 'science', 'history', 'toread', 'toread', 'quote', 'solace', 'metric', 'toread', 'metric', 'toread', 'toread', 'toread', 'metric', 'metric', 'metric', 'toread', 'quote', 'metric', 'metric', 'toread', 'toread', 'model', 'toread']",[]
+2,20200326220202,The Ultimate Guide to Writing Online,David Perell,"['literature', 'philosophy', 'datascience', 'resilience', 'datascience', 'chaos', 'model', 'networks']",[]
+3,20200407134228,"Process Ontologies, Equilibrium analysis, and Ego Death",Charlotte Merzbacher,"['permanent', 'resilience', 'model', 'environment']","['20200330205047', '20200403133729', '20200326221713', '20200407085813', '20200326221713', '20200403133729']"
+4,20210118211306,A Working Hypothesis for A Participatory Approach: Resilience Management in SES,"Walker, B. et al.","['literature', 'resilience', 'ecology', 'environment', 'toread']",[]
+5,20200326220414,Sample Note,Charlotte Merzbacher,"['permanent', 'philosophy', 'datascience', 'resilience']","['20200326220202', '20200326220202']"
+6,20200330113927,"Emergent Strategy: Shaping change, changing worlds",adrienne maree brown,"['literature', 'philosophy', 'activism', 'resilience', 'environment', 'toread', 'toread', 'toread', 'quote', 'toread', 'quote', 'quote', 'quote', 'quote', 'toread']",['20200330204247']
+7,20201002094334,Machine Learning-assisted directed protein evolution with combinatorial libraries,"Zachary Wu, Frances Arnold et al.","['literature', 'gradschool', 'machinelearning', 'protein']",[]
+8, 20200403103722,Network medicine: a network-based approach to human disease,"Albert-Lazlo Barabási, Natali Gulbahce, Joseph Loscalzo","['literature', 'networks', 'model', 'biology', 'medicine', 'toread', 'toread']",['20200402171646']
+9,20200331213012,Patchy Apocalypses,Charlotte Merzbacher,"['permanent', 'resilience', 'apocalypse', 'climatechange']","['20200326221512', '20200331105258']"
+10,20200401233013,Practicing Resilience: Accepting interdependance,Charlotte Merzbacher,"['permanent', 'resilience', 'apocalypse', 'climatechange']",[]
+11,20210112105644,Toward a Unified Ecology,"Allen, T. F. H., and T. W. Hoekstra","['literature', 'resilience', 'ecology', 'quote', 'metric', 'model”:']",['20210112105644']
+12,20201228175532,"Glaciers, Gender, and Science: A feminist glaciology framework for global environmental change research","Carey et al., 2016 (U of Oregon)","['literature', 'environment', 'science', 'toread']",['20200407085813']
+13,20200326220830,Men in Dark Times,Hannah Arendt,"['literature', 'philosophy', 'politicaltheory', 'solace']",[]
+14,20200330205047,"Hierarchies and Networks: Paradigms of temporality, knowledge, and power",Charlotte Merzbacher,"['permanent', 'resilience', 'networks', 'toread:', 'quote', 'solace', 'toread']","['20200330204247', '20200330113927', '20200326221512', '20200326221713', '20200326220830', '20200326221512', '20200330113927', '20200326221512', '20200326221512', '20200326221512', '20200330205047', '20200330204247', '20200331105258', '20200326220830', '20200326221713', '20200326221512', '20200330113927']"
+15,20210120083701,Research Project Ideas,Charlotte Merzbacher,"['permanent', 'resilience', 'networks']",['20210119180901']
+16,20200408130905,Linear Regression,Charlotte Merzbacher,"['permanent', 'model', 'machinelearning', 'datascience']",[]
+17, 20210118205440,Myths We Live By,,[],[]
+18,20200326220202,Sample Note,Charlotte Merzbacher,"['literature', 'philosophy', 'datascience', 'resilience']",['20200326220414']
+19,20200403133729,From nouns to verbs: How process ontologies enhance our understanding of social‐ecological systems understood as complex adaptive systems,"Tilman Hertz, Maria Mancilla Garcia, Maja Schlüter","['literature', 'philosophy', 'resilience', 'model', 'toread', 'toread', 'toread', 'toread', 'permanent']","['20200330113927', '20200401233013']"
+20,20200330113932,System Resilience: What Exactly is it?,Donald Firesmith,"['literature', 'resilience']",[]
+21,20210105150639,Quotes,Misc.,['quote'],[]
+22,20210103150818,A Field Guide To Getting Lost,Rebecca Solnit,"['literature', 'solitude', 'toread', 'toread']",[]
+23, 20210121083527,to-read list,Misc.,"['toread', 'toread', 'process', 'resilience']","['20200502160451', '20200326221512', '20200331105258', '20200403133729', '20200403103722', '20200402171646', '20200330113927']"
+24,20201228174616,Economic Analysis for Ecosystem Service Assessments,Iam J. Bateman et al.,"['literature', 'economics', 'environment', 'toread']",[]
+25,20201226204130,"Early Retirement, How To Do Nothing, and Arednt in political life",Charlotte Merzbacher,"['permanent', 'philosophy', 'politics', 'politicaltheory', 'solitude']","['20200502160451', '20200518151032']"
+26,20201222221106,IPBES (International Platform on Biodiversity And Ecosystem Services) Conceptual Framework,,[],"['20201222220215', '20201222220553']"
+27,20200326221850,Three Cheers for Socialism,David Bentley Hart,"['literature', 'capitalism', 'philosophy', 'socialism', 'politics']",[]
+28,20210112105654,Misc.,C.S. Holling,"['placeholder', 'resilience', 'systems']",[]
+29,20201228175115,Theorizing in Sociology and Social Science: Turning to the Context of Discovery,"Swedberg (Cornell), 2011","['literature', 'academia', 'career', 'toread', 'toread', 'toread']",[]
+30, 20210118205930,Earth System Science and Society: A Focus on the Anthroposphere,Cornell,"['literature', 'resilience', 'ecology', 'environment']",[]
+31,20200326221915,Like a Thief in Broad Daylight:  Power in the Era of Post-Human Capitalism,Slavoj Zizek,"['literature', 'capitalism', 'philosophy', 'technology', 'bioethics']",[]
+32,20200326221512,The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins,Anna Lowenhaupt Tsing,"['literature', 'philosophy', 'anthropology', 'resilience', 'environment', 'disturbance', 'solace', 'capitalism', 'toread', 'toread']",['20200326221713']
+33,20210112112009,Ecological processes that affect populations in complex landscapes,"J. B. Dunning, BJ Danielson, HR Pulliam.","['literature', 'resilience', 'ecology']",[]
+34,20210121083556,Capturring emergent phenomena in social-ecological systems: an analytical framework,Stephen Lade,"['literature', 'resilience', 'gradschool', 'stockholmresilienceinstitute']",['20200528123654']
+35,20201228174926,The Undisciplinary Journey: Early-Career Perspectives in Sustainability Science,Halder et al (SRC).,"['literature', 'academia', 'career']",[]
+36,20210121083657,"More Data, More Problems","Harp, Vallera","['literature', 'datascience', 'philosophy']",[]
+37,20200407085813,The Carrier-Bag Theory of Fiction,Ursula K. Le Guin,"['literature', 'religion', 'fiction', 'literature', 'environment', 'solace', 'toread', 'quote', 'solace']","['20200326221713', '20200330205047', '20200330205047']"
+38,20210112111634,"Reserves, Resilience and Dynamic Landscapes"," Janne Bengtsson, Per Angelstam, Thomas Elmqvist, Urban Emanuelsson, Carl Folke, Margareta Ihse, Fredrik Moberg and Magnus Nyström","['literature', 'resilience', 'ecology', 'model']","['20210112105644', '20200326221512']"
+39,20200502160451,"Being Salmon, Being Human: Encountering the Wild in Us and Us in the Wild",Martin Lee Mueller,"['literature', 'philosophy', 'resilience', 'environment', 'ecosystemservices', 'toread', 'toread', 'permanent', 'process', 'toread', 'model', 'model', 'toread', 'toread', 'toread', 'writing', 'quote', 'toread', 'toread']","['20200403133729', '20200407085813', '20200330204247']"
+40,20201228175115,Exploring the Implications of Critical Complexity for the Study of SES,Audoin et al. 2013,"['literature', 'academia', 'career', 'toread', 'tarot', 'toread']",[]
+41,20200326221713,Earth Stalked By Man,Anna Lowenhaupt Tsing,"['literature', 'philosophy', 'anthropology', 'resilience', 'environment', 'disturbance', 'solace', 'anthropocene', 'toread', 'critique', 'toread', 'toread', 'toread']",['20200326221512']
+42,20210112105644,Rethinking The Fifth Discipline: Learning Within the unknowable,Robert Flood,"['literature', 'resilience', 'systems']",['20210112105654']
+43,20201222220215,Assessing Nature’s Contributions to People,,[],"['20201222221106', '20201222220553']"
+44,20200518151032,The Origins of Totalitarianism,Hannah Arendt,"['literature', 'philosophy', 'politicaltheory']",['20200326220830']
+45,20210112112609,"Response diversity, ecosystem change, and resilience","Thomas Elmqvist, Carl Folke, Magnus Nyström, Garry Peterson, Jan Bengtsson, Brian Walker, and Jon Norberg","['literature', 'resilience', 'ecology', 'quote', 'model']",[]
+46,20200331105258,Learning to Walk in the Dark,Barbara Brown Taylor,"['literature', 'religion', 'solace', 'quote', 'toread', 'toread', 'toread', 'toread', 'quote', 'quote']","['20200326220830', '20200330204247']"
+47, 20210119180516,A Network Perspective on Modularity and Control of Flow in Robust Systems,Orjan Bodin,"['literature', 'networks', 'resilience', 'ecology']",[]
+48, 20210118212106,Lost Connections,Johann Hari,"['literature', 'mentalhealth', 'solace']",[]
+49, 20210118205339,Understanding Relationships Among Ecosystem Services,,[],[]
+50,20201228175115,Transdisciplinarity,Lange et al. 2012,"['literature', 'academia', 'career']","['20201228175115', '20201228174926']"
+51,20210112112600,Catastrophic Shifts in Ecosystems,"Marten Scheffer, Steve Carpenter, Jonathan A. Foley, Carl Folke & Brian Walker","['literature', 'resilience', 'ecology', 'catastrophe']",[]
+52,20200528123654,What is Social-Ecological Resilience ,Stephen Lade,"['literature', 'resilience', 'video', 'gradschool', 'stockholmresilienceinstitute']",['20200330113932']
+53,20200330204247,"As Long as Grass Grows: The Indigenous fight for environmental justice, from colonization to Standing Rock",Dina Gilio-Whitaker,"['literature', 'philosophy', 'native', 'environment', 'history']",['20200330113927']
+54,20201222220553,"Ecosystem Services: Origins, Pitfalls, Contributions, Alternatives",,[],"['20201222220215', '20201222221106']"
