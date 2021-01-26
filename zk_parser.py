@@ -11,6 +11,8 @@ from bokeh.plotting import from_networkx
 from bokeh.palettes import Blues8, Reds8, Purples8, Oranges8, Viridis8, Spectral8
 from bokeh.transform import linear_cmap
 from networkx.algorithms import community
+from bokeh.models import EdgesAndLinkedNodes, NodesAndLinkedEdges
+
 
 
 mypath = '..'
@@ -50,7 +52,6 @@ for f in filelist:
 # zot.add_parameters(format='bib')
 # bibliography = zot.items()
 
-
 #jupyter notebook for visualization: https://nbviewer.jupyter.org/github/jkbren/presilience/blob/master/code/01_Intro_Network_Resilience.ipynb
 
 #get set of all possible tags as nodes
@@ -89,13 +90,31 @@ G.add_edges_from(edges)
 
 #calculate node degrees
 degrees = dict(nx.degree(G))
+adj_degrees = {}
+for d in degrees: adj_degrees[d] = degrees[d]+5
 nx.set_node_attributes(G, name='degree', values=degrees)
+nx.set_node_attributes(G, name='adj_degree', values=adj_degrees)
+
+#add tag enum
+tags = {}
+colors = {}
+for n in nodes:
+    if n in tag_nodes:
+        colors[n] = '#5dd1de'
+        tags[n] = 'tag'
+    else: 
+        colors[n] = '#768e9a'
+        tags[n] = 'note'
+
+nx.set_node_attributes(G, name='tag', values=tags)
+nx.set_node_attributes(G, name='color', values=colors)
 
 #plot graph
 title = 'Zettelkasten'
 
 #Establish which categories will appear when hovering over each node
-HOVER_TOOLTIPS = [("ID", "@index"), ("Degree", "@degree")]
+HOVER_TOOLTIPS = [("ID", "@index"), ("Degree", "@degree"),
+("Tag", "@tag")]
 
 #Create a plot — set dimensions, toolbar, and title
 plot = figure(tooltips = HOVER_TOOLTIPS,
@@ -105,19 +124,29 @@ plot = figure(tooltips = HOVER_TOOLTIPS,
 #Create a network graph object with spring layout
 network_graph = from_networkx(G, nx.spring_layout, scale=500, center=(0, 0))
 
-#Set node size and color
-network_graph.node_renderer.glyph = Circle(size=15, fill_color='skyblue')
+#Set node sizes and colors according to node degree (color as spectrum of color palette)
+network_graph.node_renderer.glyph = Circle(size ='adj_degree',  fill_color='color')
 
 #Set edge opacity and width
 network_graph.edge_renderer.glyph = MultiLine(line_alpha=0.5, line_width=1)
+
+#Set node highlight colors
+node_highlight_color = 'white'
+edge_highlight_color = 'black'
+network_graph.node_renderer.hover_glyph = Circle(size=size_by_this_attribute, fill_color=node_highlight_color, line_width=2)
+network_graph.node_renderer.selection_glyph = Circle(size=size_by_this_attribute, fill_color=node_highlight_color, line_width=2)
+#Set edge highlight colors
+network_graph.edge_renderer.selection_glyph = MultiLine(line_color=edge_highlight_color, line_width=2)
+network_graph.edge_renderer.hover_glyph = MultiLine(line_color=edge_highlight_color, line_width=2)
+
+    #Highlight nodes and edges
+network_graph.selection_policy = NodesAndLinkedEdges()
+network_graph.inspection_policy = NodesAndLinkedEdges()
+
 
 #Add network graph to the plot
 plot.renderers.append(network_graph)
 
 show(plot)
 
-#Color if tag or non-tag
-#selective highlighting
-#Size based on degree
-#https://melaniewalsh.github.io/Intro-Cultural-Analytics/Network-Analysis/Making-Network-Viz-with-Bokeh.html
-
+#add zotero integration and add title information to plot
